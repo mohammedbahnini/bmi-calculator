@@ -5,7 +5,7 @@ import { BmiResult } from "../Calculator/BmiResult";
 
 export function Calculator() {
 
-    const [type, setType] = useState('imperial');
+    const [type, setType] = useState('metric');
     const [bmi, setBmi] = useState(null);
     const [height, setHeight] = useState(null);
     const [weight, setWeight] = useState(null);
