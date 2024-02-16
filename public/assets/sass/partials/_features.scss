@@ -1,0 +1,17 @@
+.features{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 87rem;
+
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2.1875rem;
+        background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+        opacity: 0.25;
+    }
+}
+

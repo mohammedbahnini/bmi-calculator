@@ -1,0 +1,41 @@
+/* define headings */
+.heading-xl , .heading-l , .heading-m , .heading-s{
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.05em;
+}
+
+.heading-xl{
+    font-size: 4rem;
+    @include mq( $tablet-breakpoint ){
+        font-size: 3rem;
+    }
+}
+
+.heading-l{
+    font-size: 3rem;
+    @include mq( $tablet-breakpoint ){
+        font-size: 2rem;
+    }
+}
+
+.heading-m{
+    font-size: 1.5rem;
+}
+
+.heading-s{
+    font-size: 1.25rem;
+}
+
+
+/* define paragraphs */
+.text , .text-s{
+    line-height: 1.5em;
+}
+.text{
+    font-size: 1rem;
+}
+.text-s{
+    font-size: 0.875rem;
+}
+

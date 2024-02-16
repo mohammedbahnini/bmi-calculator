@@ -1,0 +1,16 @@
+.hero{
+    &__calculator{
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+    }
+    &__result{
+        background: linear-gradient(90deg, #345FF7 0%, #587DFF 100%);
+        border-radius: 16px 999px 999px 16px;
+        // border-radius: 1rem 999px 999px 1rem ;
+        @include mq( $mobile-breakpoint){
+            border-radius: 1rem;
+        }
+        
+    }
+}
+
+
