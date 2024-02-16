@@ -7,8 +7,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"  , 
-    "postbuild" : "purgecss --content dist/**/*.{js,html} --css dist/**/*.css --output dist/assets"
+    "preview": "vite preview",
+    "postbuild": "purgecss --content dist/**/*.{js,html} --css dist/**/*.css --output dist/assets"
   },
   "dependencies": {
     "all": "^0.0.0",
